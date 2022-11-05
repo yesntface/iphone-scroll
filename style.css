@@ -1,3 +1,15 @@
+::-webkit-scrollbar { 
+    appearance: none; 
+    -webkit-appearance: none; 
+    width: 3px; 
+  } 
+  ::-webkit-scrollbar-thumb { 
+    border-radius: 2px; 
+    background-color: rgba(0,0,0,.5); 
+    box-shadow: 0 0 1px rgba(255,255,255,.5); 
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5); 
+  }
+
 .parent {
     display: flex;
     gap: 5px;
