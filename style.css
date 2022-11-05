@@ -1,0 +1,11 @@
+.parent {
+    display: flex;
+    gap: 5px;
+    overflow-x: auto;
+}
+
+.child {
+    min-width: 100px;
+    height: 20px;
+    background-color: blue;
+}
